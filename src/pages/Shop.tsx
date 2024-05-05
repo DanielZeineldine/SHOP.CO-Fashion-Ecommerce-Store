@@ -1,3 +1,4 @@
+import ColorPicker from "../components/ColorPicker";
 import PriceSlider from "../components/PriceSlider";
 import "./Shop.scss";
 export default function Shop() {
@@ -51,7 +52,7 @@ export default function Shop() {
             <h3>Colors</h3>
             <img src="down-arrow.svg" alt="" />
           </div>
-          <p>Colors here</p>
+          <ColorPicker />
         </div>
         <div className="filters__divider"></div>
         <div className="shopFilters__sizes">

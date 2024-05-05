@@ -1,0 +1,72 @@
+.colorPicker {
+  width: 100%;
+  // height: 1rem;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 5px;
+  margin-bottom: 1rem;
+}
+.check {
+  display: none;
+  width: 15px;
+  height: auto;
+  &.showCheck {
+    display: block;
+  }
+}
+.checkcolor9 {
+  fill: "black";
+}
+
+@mixin color {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: rgba(0, 0, 0, 0.2) solid 1px;
+  border-radius: 50%;
+}
+.color1 {
+  @include color();
+  background-color: #00c12b;
+}
+.color2 {
+  @include color();
+  background-color: #f50606;
+}
+.color3 {
+  @include color();
+  background-color: #f5dd06;
+}
+.color4 {
+  @include color();
+  background-color: #f57906;
+}
+.color5 {
+  @include color();
+  background-color: #06caf5;
+}
+.color6 {
+  @include color();
+  background-color: #063af5;
+}
+.color7 {
+  @include color();
+  background-color: #7d06f5;
+}
+.color8 {
+  @include color();
+  background-color: #f506a4;
+}
+.color9 {
+  @include color();
+  background-color: #ffffff;
+}
+.color10 {
+  @include color();
+  background-color: #000000;
+}
