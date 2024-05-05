@@ -1,0 +1,84 @@
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin font-satoshi {
+  font-family: var(--Satoshi);
+}
+.shop {
+  margin: 0 6rem;
+}
+.topLine {
+  flex: 1;
+  box-sizing: border-box;
+  height: 1px;
+  margin: 1rem 0rem;
+  background-color: rgb(0, 0, 0, 0.1);
+  /* border: red solid 1px; */
+}
+.arrow__svg {
+  width: 11.5px;
+  height: 11.5px;
+  margin: 0 0.9rem 0 0.4rem;
+}
+.directions {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  @include font-satoshi();
+  /* font-weight: 500; */
+}
+.directions__home {
+  color: rgba(0, 0, 0, 0.6);
+}
+.shop__filters {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid var(--divider);
+  border-radius: 20px;
+}
+.shopFilters__filters {
+  @include flex-between();
+  width: 90%;
+  h3 {
+    @include font-satoshi();
+  }
+}
+.shopFilters__categories,
+.shopFilters__dressStyles {
+  width: 90%;
+  @include flex-between();
+  flex-direction: column;
+}
+.shopFilters__category,
+.shopFilters__dressStyle {
+  margin-top: 0.5rem;
+  @include flex-between();
+  color: var(--black-60);
+}
+.shopFilters__price,
+.shopFilters__colors,
+.shopFilters__sizes {
+  width: 90%;
+}
+.shopFilters__price__top,
+.shopFilters__colors__top,
+.shopFilters__sizes__top,
+.shopFilters__dressStyle__top {
+  @include flex-between();
+  h3 {
+    @include font-satoshi();
+  }
+}
+
+.filters__divider {
+  width: 90%;
+  height: 1px;
+  margin: 1rem 0;
+  background-color: var(--divider);
+}

@@ -1,0 +1,175 @@
+.footer {
+  position: relative;
+  height: 69vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 8rem;
+  padding: 6rem 6rem 0;
+  background-color: #f0f0f0;
+}
+.footer__top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.fooTop__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex: 1;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.fooTop__1,
+.fooTop__2,
+.fooTop__3,
+.fooTop__4,
+.fooTop__5 {
+  max-width: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.footer__title {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  font-family: "integral";
+}
+.fooTop__1 {
+  max-width: 300px;
+  padding-top: 0.5rem;
+  /* align-items: start; */
+}
+a,
+.fooTop1__desc {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "satoshi";
+  font-weight: 500;
+}
+a {
+  font-size: 1rem;
+  padding-top: 1rem;
+  text-decoration: none;
+  transition: all 0.1s ease-in;
+  &:hover {
+    color: #131313;
+    transition: all 0.1s ease-in;
+  }
+}
+.newsLetter {
+  position: absolute;
+  width: 86%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: black;
+  top: -5rem;
+  /* transform: translateY(-6rem); */
+  .h2 {
+    /* width: 110%; */
+    font-size: 2.5rem;
+    color: white;
+    font-family: "integral", serif;
+  }
+}
+.form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form__email {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 70%;
+  padding: 0.3rem;
+  padding-left: 0.9rem;
+  background-color: white;
+  border-radius: 2rem;
+  .input {
+    width: 80%;
+    padding: 0.3rem;
+    border: none;
+    outline: none;
+    font-family: "satoshi";
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+.news__btn {
+  width: 70%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  font-family: "satoshi";
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  &:hover {
+    background-color: #616060;
+    color: white;
+    transition: all 0.1s ease-in;
+  }
+}
+
+/* ! MEDIA */
+
+@media (max-width: 1250px) {
+  .footer {
+    height: auto;
+  }
+  .form__email {
+    .input {
+      font-size: 1rem;
+    }
+  }
+}
+@media (max-width: 1135px) {
+  .newsLetter .h2 {
+    font-size: 2rem;
+  }
+  .form__email {
+    width: 80%;
+    .input {
+      font-size: 1rem;
+    }
+  }
+  .news__btn {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .footer__top {
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .fooTop__1 {
+    max-width: 500px;
+    padding: 0;
+    margin: 0;
+  }
+  .fooTop__links {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+}
