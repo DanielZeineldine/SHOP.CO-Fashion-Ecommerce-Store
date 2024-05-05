@@ -42,11 +42,20 @@
   border: 1px solid var(--divider);
   border-radius: 20px;
 }
+.filters__divider {
+  width: 90%;
+  height: 1px;
+  margin: 1rem 0;
+  background-color: var(--divider);
+}
 .shopFilters__filters {
   @include flex-between();
   width: 90%;
   h3 {
     @include font-satoshi();
+  }
+  img {
+    cursor: pointer;
   }
 }
 .shopFilters__categories,
@@ -54,6 +63,7 @@
   width: 90%;
   @include flex-between();
   flex-direction: column;
+  cursor: pointer;
 }
 .shopFilters__category,
 .shopFilters__dressStyle {
@@ -74,11 +84,28 @@
   h3 {
     @include font-satoshi();
   }
+  img {
+    cursor: pointer;
+  }
 }
-
-.filters__divider {
-  width: 90%;
-  height: 1px;
-  margin: 1rem 0;
-  background-color: var(--divider);
+.sFSizes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  p {
+    padding: 0.8rem 1.1rem;
+    // margin: 0.4rem;
+    border-radius: 3rem;
+    background-color: #f0f0f0;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    &:hover,
+    &:active {
+      background-color: black;
+      color: white;
+      transition: all 0.1s ease-in;
+    }
+  }
 }

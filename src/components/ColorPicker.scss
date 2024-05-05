@@ -10,14 +10,13 @@
 }
 .check {
   display: none;
-  width: 15px;
-  height: auto;
+  fill: white;
   &.showCheck {
     display: block;
   }
 }
 .checkcolor9 {
-  fill: "black";
+  fill: black;
 }
 
 @mixin color {
@@ -29,6 +28,7 @@
   flex-wrap: wrap;
   border: rgba(0, 0, 0, 0.2) solid 1px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .color1 {
   @include color();
