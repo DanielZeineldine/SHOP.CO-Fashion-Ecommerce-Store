@@ -1,0 +1,25 @@
+.sF__sizes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  .sF__size {
+    padding: 0.8rem 1.1rem;
+    // margin: 0.4rem;
+    border-radius: 3rem;
+    background-color: #f0f0f0;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+    &:hover,
+    &:active {
+      background-color: black;
+      color: white;
+      transition: all 0.15s ease-in;
+    }
+  }
+}
+.sF__size.active {
+  background-color: black;
+  color: white;
+}

@@ -20,26 +20,17 @@ export default function ColorPicker() {
     setActiveColor(color);
   }
   function getColorClass(color: string) {
-    if (activeColor === color) return "active showCheck";
+    if (activeColor === color) return "active";
     else return "";
   }
   return (
     <div className="colorPicker">
       {colors.map((color, index) => (
         <div
-          className={
-            `colorPicker__color ` + color + " " + getColorClass("color1")
-          }
+          className={`colorPicker__color ` + color + " " + getColorClass(color)}
           onClick={() => handleClick(color)}
           key={index}
         >
-          {/* <img
-            className={`check check${color} ${
-              activeColor === color ? "showCheck" : ""
-            }`}
-            src="check.svg"
-            alt="check"
-          /> */}
           <svg
             className={`check check${color} ${
               activeColor === color ? "showCheck" : ""
@@ -54,17 +45,6 @@ export default function ColorPicker() {
           </svg>
         </div>
       ))}
-
-      {/* <div
-        className={`colorPicker__color color1` + getColorClass("color1")}
-        onClick={() => handleClick("color1")}
-      >
-        <img
-          className={`check ${activeColor === "color1" ? "showCheck" : ""}`}
-          src="check.svg"
-          alt="check"
-        />
-      </div> */}
     </div>
   );
 }

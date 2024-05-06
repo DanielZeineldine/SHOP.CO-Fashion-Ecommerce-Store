@@ -1,6 +1,8 @@
 import ColorPicker from "../components/ColorPicker";
 import PriceSlider from "../components/PriceSlider";
+import SizePicker from "../components/SizePicker";
 import "./Shop.scss";
+
 export default function Shop() {
   return (
     <div className="shop">
@@ -60,17 +62,7 @@ export default function Shop() {
             <h3>Sizes</h3>
             <img src="down-arrow.svg" alt="" />
           </div>
-          <div className="sFSizes">
-            <p>XX-Small</p>
-            <p>X-Small</p>
-            <p>Small</p>
-            <p>Medium</p>
-            <p>Large</p>
-            <p>X-Large</p>
-            <p>XX-Large</p>
-            <p>3X-Large</p>
-            <p>4X-Large</p>
-          </div>
+          <SizePicker />
         </div>
         <div className="filters__divider"></div>
         <div className="shopFilters__dressStyles">
@@ -96,7 +88,6 @@ export default function Shop() {
           </div>
         </div>
       </div>
-      <input type="range" min={0} max={100} />
     </div>
   );
 }
