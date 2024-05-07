@@ -15,7 +15,7 @@ export default function Shop() {
       <div className="shop__filters">
         <div className="shopFilters__filters">
           <h3>Filters</h3>
-          <img src="filters.svg" alt="filters icon" />
+          <img src="/shop/filters.svg" alt="filters icon" />
         </div>
         <div className="filters__divider"></div>
         <div className="shopFilters__categories">

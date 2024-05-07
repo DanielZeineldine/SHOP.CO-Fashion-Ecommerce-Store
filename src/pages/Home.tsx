@@ -44,11 +44,11 @@ export default function Home() {
       </div>
       <div className="second">
         <div className="brands">
-          <img className="brand__1" src="versace.svg" alt="" />
-          <img className="brand__2" src="zara.svg" alt="" />
-          <img className="brand__3" src="gucci.svg" alt="" />
-          <img className="brand__4" src="prada.svg" alt="" />
-          <img className="brand__5" src="calvin.svg" alt="" />
+          <img className="brand__1" src="/home/brands/versace.svg" alt="" />
+          <img className="brand__2" src="/home/brands/zara.svg" alt="" />
+          <img className="brand__3" src="/home/brands/gucci.svg" alt="" />
+          <img className="brand__4" src="/home/brands/prada.svg" alt="" />
+          <img className="brand__5" src="/home/brands/calvin.svg" alt="" />
         </div>
         <div className="newArrivals">
           <h2 className="h2 newArrivals__title">New Arrivals</h2>
