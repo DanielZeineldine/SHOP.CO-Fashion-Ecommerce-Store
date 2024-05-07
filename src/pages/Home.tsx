@@ -33,30 +33,30 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <img className="vector vec1" src="Vector.svg" alt="vector" />
-        <img className="vector vec2" src="Vector.svg" alt="vector" />
+        <img className="vector vec1" src="/home/Vector.svg" alt="vector" />
+        <img className="vector vec2" src="/home/Vector.svg" alt="vector" />
         <img
           className="img trendy"
-          src="trendyy.svg"
+          src="/home/trendy.svg"
           alt="guy and girl in outfit"
           loading="lazy"
         />
       </div>
       <div className="second">
-        {/* <div className="brands">
+        <div className="brands">
           <img className="brand__1" src="versace.svg" alt="" />
           <img className="brand__2" src="zara.svg" alt="" />
           <img className="brand__3" src="gucci.svg" alt="" />
           <img className="brand__4" src="prada.svg" alt="" />
           <img className="brand__5" src="calvin.svg" alt="" />
-        </div> */}
+        </div>
         <div className="newArrivals">
           <h2 className="h2 newArrivals__title">New Arrivals</h2>
           <div className="products">
             <div className="product product__1">
               <img
                 className="product__img prodImg__1"
-                src="products/tshirt.png"
+                src="/home/products/tshirt.png"
                 alt=""
               />
               <div className="product__info">
@@ -66,7 +66,7 @@ export default function Home() {
             <div className="product product__2">
               <img
                 className="product__img prodImg__2"
-                src="products/fitjeans.png"
+                src="/home/products/fitjeans.png"
                 alt=""
               />
               <div className="product__info">
@@ -76,7 +76,7 @@ export default function Home() {
             <div className="product product__3">
               <img
                 className="product__img prodImg__3"
-                src="products/checkeredshit.png"
+                src="/home/products/checkeredshit.png"
                 alt=""
               />
               <div className="product__info">
@@ -86,7 +86,7 @@ export default function Home() {
             <div className="product product__4">
               <img
                 className="product__img prodImg__4"
-                src="products/sleeveshirt.png"
+                src="/home/products/sleeveshirt.png"
                 alt=""
               />
               <div className="product__info">
@@ -105,7 +105,7 @@ export default function Home() {
             <div className="product product__1">
               <img
                 className="product__img prodImg__1"
-                src="products/tshirt.png"
+                src="/home/products/tshirt.png"
                 alt=""
               />
               <div className="product__info">
@@ -115,7 +115,7 @@ export default function Home() {
             <div className="product product__2">
               <img
                 className="product__img prodImg__2"
-                src="products/fitjeans.png"
+                src="/home/products/fitjeans.png"
                 alt=""
               />
               <div className="product__info">
@@ -125,7 +125,7 @@ export default function Home() {
             <div className="product product__3">
               <img
                 className="product__img prodImg__3"
-                src="products/checkeredshit.png"
+                src="/home/products/checkeredshit.png"
                 alt=""
               />
               <div className="product__info">
@@ -135,7 +135,7 @@ export default function Home() {
             <div className="product product__4">
               <img
                 className="product__img prodImg__4"
-                src="products/sleeveshirt.png"
+                src="/home/products/sleeveshirt.png"
                 alt=""
               />
               <div className="product__info">

@@ -7,7 +7,7 @@ export default function Footer() {
         <h2 className="h2">STAY IN THE LOOP WITH OUR NEWEST OFFERS</h2>
         <form className="form">
           <div className="form__email">
-            <img className="email" src="email.svg" alt="" />
+            <img className="email" src="/footer/email.svg" alt="" />
             <input
               className="input"
               type="email"

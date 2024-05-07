@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__left">
-        <img className="hamburger" src="hamburger.svg" alt="" />
+        <img className="hamburger" src="/nav/hamburger.svg" alt="" />
         <NavLink className={"navLink navLink__home navLink__logo"} to={"/"}>
           <h1 className="shopCo">SHOP.CO</h1>
         </NavLink>
@@ -31,7 +31,7 @@ export default function Navbar() {
           >
             <NavLink className={"navLink navLink__shop"} to={"/shop"}>
               Shop
-              <img className="img downArrow" src="down-arrow.svg" alt="" />
+              <img className="img downArrow" src="/nav/down-arrow.svg" alt="" />
             </NavLink>
             {dropdown && <Dropdown />}
             {/* {<Dropdown />} */}
@@ -49,11 +49,11 @@ export default function Navbar() {
       </div>
       <div className="navbar__right">
         <div className="navbar__search">
-          <img src="search.svg" alt="search icon" />
+          <img src="/nav/search.svg" alt="search icon" />
           <input type="text" placeholder="Search for products..." />
         </div>
-        <img src="cart.svg" alt="cart" />
-        <img src="profile.svg" alt="profile" />
+        <img src="/nav/cart.svg" alt="cart" />
+        <img src="/nav/profile.svg" alt="profile" />
       </div>
     </div>
   );
