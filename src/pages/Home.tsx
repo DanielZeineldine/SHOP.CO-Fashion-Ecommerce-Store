@@ -33,23 +33,25 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <img className="vector vec1" src="/home/Vector.svg" alt="vector" />
-        <img className="vector vec2" src="/home/Vector.svg" alt="vector" />
-        <img
-          className="img trendy"
-          src="/home/trendy.svg"
-          alt="guy and girl in outfit"
-          loading="lazy"
-        />
+        <div className="right">
+          <img className="vector vec1" src="/home/Vector.svg" alt="vector" />
+          <img className="vector vec2" src="/home/Vector.svg" alt="vector" />
+          <img
+            className="img trendy"
+            src="/home/trendy.svg"
+            alt="guy and girl in outfit"
+            loading="lazy"
+          />
+        </div>
       </div>
       <div className="second">
-        <div className="brands">
+        {/* <div className="brands">
           <img className="brand__1" src="/home/brands/versace.svg" alt="" />
           <img className="brand__2" src="/home/brands/zara.svg" alt="" />
           <img className="brand__3" src="/home/brands/gucci.svg" alt="" />
           <img className="brand__4" src="/home/brands/prada.svg" alt="" />
           <img className="brand__5" src="/home/brands/calvin.svg" alt="" />
-        </div>
+        </div> */}
         <div className="newArrivals">
           <h2 className="h2 newArrivals__title">New Arrivals</h2>
           <div className="products">

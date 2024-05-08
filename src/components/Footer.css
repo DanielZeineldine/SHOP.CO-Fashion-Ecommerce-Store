@@ -47,13 +47,13 @@
   padding-top: 0.5rem;
   /* align-items: start; */
 }
-a,
+.footer__top a,
 .fooTop1__desc {
   color: rgba(0, 0, 0, 0.6);
   font-family: "satoshi";
   font-weight: 500;
 }
-a {
+.footer__top a {
   font-size: 1rem;
   padding-top: 1rem;
   text-decoration: none;

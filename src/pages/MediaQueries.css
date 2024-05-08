@@ -214,3 +214,42 @@
     grid-template: 100% / repeat(2, 1fr);
   }
 }
+@media (max-width: 390px) {
+  .homPic {
+    flex-direction: column;
+    .left {
+      padding: 0;
+      h2 {
+        font-size: 36px;
+        max-width: 800px;
+        width: 800px;
+        z-index: 3;
+      }
+      .desc {
+        margin-top: 1rem;
+        max-width: 300px;
+      }
+    }
+  }
+  .trendy {
+    position: inherit;
+    top: 5rem;
+  }
+  .vector {
+    position: absolute;
+    z-index: 2;
+    &.vec1 {
+      top: 15.5rem;
+      right: 25rem;
+      width: 4rem;
+    }
+    &.vec2 {
+      top: 6rem;
+      right: 6rem;
+      width: 5rem;
+    }
+  }
+  .products {
+    grid-template: 100% / repeat(2, 1fr);
+  }
+}
