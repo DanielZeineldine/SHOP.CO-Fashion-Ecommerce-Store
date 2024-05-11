@@ -20,10 +20,10 @@
   --black-60: rgba(0, 0, 0, 0.6);
   --divider: rgba(0, 0, 0, 0.1);
   --button: #f0f0f0;
-  --flex-between: {
+  /* --flex-between: {
     display: flex;
     justify-content: space-between;
-  }
+  } */
 }
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

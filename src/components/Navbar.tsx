@@ -52,6 +52,7 @@ export default function Navbar() {
           <img src="/nav/search.svg" alt="search icon" />
           <input type="text" placeholder="Search for products..." />
         </div>
+        <img className="search-black" src="/nav/search-black.svg" alt="cart" />
         <img src="/nav/cart.svg" alt="cart" />
         <img src="/nav/profile.svg" alt="profile" />
       </div>

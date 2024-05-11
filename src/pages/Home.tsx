@@ -8,6 +8,7 @@ export default function Home() {
       <div className="first homPic">
         <div className="left">
           <h2 className="h2">FIND CLOTHES THAT MATCH YOUR STYLE</h2>
+          {/* <div className="under__h2"> */}
           <p className="desc">
             Browse through our diverse range of meticulously crafted garments,
             designed to bring out your individuality and cater to your sense of
@@ -32,6 +33,7 @@ export default function Home() {
               <p className="bot">Happy Customers</p>
             </div>
           </div>
+          {/* </div> */}
         </div>
         <div className="right">
           <img className="vector vec1" src="/home/Vector.svg" alt="vector" />

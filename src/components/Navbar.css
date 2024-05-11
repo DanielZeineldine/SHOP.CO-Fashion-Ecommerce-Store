@@ -94,6 +94,9 @@
     }
   }
 }
+.search-black {
+  display: none;
+}
 .navbar__right {
   display: flex;
   align-items: center;
